@@ -25,7 +25,8 @@ do
     }
     
 } while (i<j);
-{
+
+
     temp=arr[j];
     arr[j]=arr[low];
     arr[low]=temp;
@@ -43,7 +44,7 @@ void qksort(int arr[],int low ,int high)
 }
 
 
-}
+
 int main()
 {
     int arr[]={9,12,58,75,2,10,8};
